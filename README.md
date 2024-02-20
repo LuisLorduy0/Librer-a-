@@ -1,4 +1,6 @@
-Luis Eduardo Lorduy      
+Luis Eduardo Lorduy  
+
+
 Desarrollo De Software I. 
 Actividad Propuesta por el ingeniero Cristian Cuadrado (Realizar una libreria que me permita realizar tres funciones especificas en java).
 
