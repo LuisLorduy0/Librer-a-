@@ -2,9 +2,14 @@ Luis Eduardo Lorduy
 
 
 Desarrollo De Software I. 
+
+
+
 Actividad Propuesta por el ingeniero Cristian Cuadrado (Realizar una libreria que me permita realizar tres funciones especificas en java).
 
 Descripcion:
+
+
 -La libreria realizada cumple con las tres funciones las cuales son tanto sumar, como calcular promedio y a la misma vez calcular la mediana de una lista de numeros
 actuando como una calculadora(en java).
 
