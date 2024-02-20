@@ -16,9 +16,12 @@ actuando como una calculadora(en java).
 -Este repositorio cuenta tambien con un documento .txt el cual se encuentra el pseudocodigo realizado en base pseint para esta libreria. 
 
 -Por ultimo se encuentra un documento .pdf el cual contiene una investigacion detallada sobre todos los siguientes temas:
+
 -Programacion orientada a objetos (POO).
 -Programacion secuencial (PS).
+
 -Programacion Estructural.
+
 -Arreglos, Matrices, Listas y Objetos en (POO)
 
 Temas muy importantes y a tener en cuenta para la elaboracion de esta libreria.
