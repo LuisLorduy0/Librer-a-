@@ -17,11 +17,12 @@ actuando como una calculadora(en java).
 
 -Por ultimo se encuentra un documento .pdf el cual contiene una investigacion detallada sobre todos los siguientes temas:
 
--Programacion orientada a objetos (POO).
--Programacion secuencial (PS).
-
--Programacion Estructural.
-
--Arreglos, Matrices, Listas y Objetos en (POO)
+1. Programacion orientada a objetos (POO).
+ 
+2. Programacion secuencial (PS).
+   
+3. Programacion Estructural.
+   
+4. Arreglos, Matrices, Listas y Objetos en (POO)
 
 Temas muy importantes y a tener en cuenta para la elaboracion de esta libreria.
