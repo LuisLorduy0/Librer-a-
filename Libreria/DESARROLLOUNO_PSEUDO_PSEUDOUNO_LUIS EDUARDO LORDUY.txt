@@ -1,0 +1,74 @@
+            Desarrllo De SoftwareI
+   
+            Pseudocodigo De La Actividad
+
+
+  
+
+        Algoritmo CalculadoraEstadistica
+
+    // Función para calcular la suma de la lista de números
+
+    Funcion calcularSuma(numeros: arreglo de reales) -> real
+        Definir suma como real
+        suma <- 0
+        Para cada numero en numeros hacer
+            suma <- suma + numero
+        Fin Para
+        retornar suma
+    Fin Funcion
+    
+    // Función para calcular el promedio de la lista de números
+
+    Funcion calcularPromedio(numeros: arreglo de reales) -> real
+        Si numeros está vacío entonces
+            Mostrar "La lista de números está vacía"
+            Detener algoritmo
+        Fin Si
+        // Calcular la suma y dividirla por la cantidad de números
+        retornar calcularSuma(numeros) / Longitud(numeros)
+    Fin Funcion
+    
+    // Función para calcular la mediana de la lista de números
+
+    Funcion calcularMediana(numeros: arreglo de reales) -> real
+        Si numeros está vacío entonces
+            Mostrar "La lista de números está vacía"
+            Detener algoritmo
+        Fin Si
+        Ordenar(numeros)
+        Definir tamaño como entero
+        tamaño <- Longitud(numeros)
+        // Calcular la mediana dependiendo si la cantidad de números es par o impar
+
+        Si tamaño MOD 2 = 0 entonces
+            Definir indice1, indice2 como entero
+            indice1 <- tamaño / 2 - 1
+            indice2 <- tamaño / 2
+            retornar (numeros[indice1] + numeros[indice2]) / 2
+        Sino
+            retornar numeros[tamaño / 2]
+        Fin Si
+    Fin Funcion
+    
+    // Main
+    Proceso principal
+        Definir numeros como arreglo de reales
+        Definir numero como real
+        Escribir "Ingrese la lista de números. Una vez haya terminado, escriba 'fin'."
+        Leer numero
+        Mientras numero no sea "fin" hacer
+            Agregar numero a numeros
+            Leer numero
+        Fin Mientras
+        
+        // Mostrar resultados
+
+        Escribir "Suma: ", calcularSuma(numeros)
+        Escribir "Promedio: ", calcularPromedio(numeros)
+        Escribir "Mediana: ", calcularMediana(numeros)
+        
+    Fin Proceso
+
+Fin Algoritmo
+     
